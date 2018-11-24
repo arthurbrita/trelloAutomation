@@ -19,7 +19,7 @@ public class TrelloStep {
 
     @Quando("^crio um card com o nome \"([^\"]*)\"$")
     public void crioUmCardComONome(String arg0) throws Throwable {
-        System.out.println("crioUmCardComONomd");
+        System.out.println("crioUmCardComONome");
     }
 
     @E("^comento \"([^\"]*)\"$")
