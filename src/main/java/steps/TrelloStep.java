@@ -18,12 +18,12 @@ public class TrelloStep {
     }
 
     @Quando("^crio um card com o nome \"([^\"]*)\"$")
-    public void crioUmCardComONome(String arg0) throws Throwable {
+    public void crioUmCardComONome(String arg0) {
         System.out.println("crioUmCardComONome");
     }
 
     @E("^comento \"([^\"]*)\"$")
-    public void comento(String arg0) throws Throwable {
+    public void comento(String arg0) {
         System.out.println("comento");
     }
 
@@ -38,7 +38,7 @@ public class TrelloStep {
     }
 
     @Entao("^o card não existe mais$")
-    public void oCardNãoExisteMais() {
-        System.out.println("oCardNãoExisteMais");
+    public void oCardNaoExisteMais() {
+        System.out.println("oCardNaoExisteMais");
     }
 }
